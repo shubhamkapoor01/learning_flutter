@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Word-Pair Generator'),
-          backgroundColor: Colors.grey[800]
+          backgroundColor: Colors.grey[700]
         ),
         body: Center(child: Text(wordPair.asPascalCase))
       )
